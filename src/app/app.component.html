@@ -1,0 +1,4 @@
+<button *ngFor="let link of links" (mouseover)="preloadBundle(link);" [routerLink]="link">
+    {{link}}
+</button>
+<router-outlet></router-outlet>
